@@ -1,0 +1,30 @@
+<swiper indicator-dots = "true" indicator-color = "blue" autoplay = "true">
+  <swiper-item>
+      <image src='/static/example/image/swiper_pic1.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+      <image src='/static/example/image/swiper_pic2.jpg'></image>
+  </swiper-item>
+</swiper>
+<view class='main_catalog'>
+    <view>
+      <image src='/static/example/image/jujia.png'></image>
+      <text>居家</text>
+    </view>
+    <view>
+      <image src='/static/example/image/camchu.png'></image>
+      <text>餐厨</text>
+    </view>
+    <view>
+      <image src='/static/example/image/peijian.png'></image>
+      <text>配件</text>
+    </view>
+    <view>
+      <image src='/static/example/image/fuzhuang.png'></image>
+      <text>服装</text>
+    </view>
+    <view>
+      <image src='/static/example/image/zhiqu.png'></image>
+      <text>志趣</text>
+    </view>
+</view>

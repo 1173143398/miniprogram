@@ -1,0 +1,8 @@
+/* pages/main/main.wxss */
+.main_catalog{
+  display: flex;
+  height: 80rpx;
+  }
+image{
+  background-size: cover;
+}
