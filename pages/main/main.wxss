@@ -1,8 +1,137 @@
 /* pages/main/main.wxss */
+.main_swiper{
+  width: 100%;
+}
+
+.main_swiper image{
+  width: 100%;
+  height: 400rpx;
+}
+
 .main_catalog{
   display: flex;
-  height: 80rpx;
-  }
-image{
-  background-size: cover;
+  width: 100%;
+  margin: 20rpx 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.main_catalog image{
+  width: 58rpx;
+  height: 58rpx;
+  display: block;
+  margin: 0 auto;
+}
+.main_catalog .main_catalog_item{
+  flex: 1;
+}
+.main_catalog text{
+  display: block;
+  font-size: 24rpx;
+  text-align: center;
+}
+.main_product{
+  margin: 20rpx 0;
+  width: 100%;
+}
+.main_product image{
+  width: 100%;
+}
+.main_product .main_product_title{
+    display: block;
+    text-align: center;
+    font-size:32rpx;
+}
+
+.main_product_content{
+  position: relative;
+}
+
+.main_product_tip{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20rpx;
+}
+ .brand{
+  font-size:32rpx;
+  display: block;
+}
+
+ .price{
+  font-size: 24rpx;
+  color: red;
+}
+
+.main_scroll{
+   white-space: nowrap;
+   overflow: hidden;
+   height: 533rpx;
+}
+.main_scroll .main_scroll_item{
+  display: inline-block;
+  width: 100%;
+}
+.main_scroll_item image{
+  width: 100%;
+  height: 387rpx;
+}
+.main_scroll_title{
+  font-size: 32rpx;
+  text-align: center;
+}
+.desc{
+  display: block;
+  font-size: 20rpx;
+  color: gray;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.main_new_product{
+  width: 100%;
+}
+
+.main_new_product .main_new_product_title{
+    font-size: 32rpx;
+    text-align: center;
+}
+
+.main_new_product .main_new_product_list{
+    height: 100%;
+}
+
+.main_new_product_list_pro{
+  float: left;
+  width: 360rpx;
+}
+.main_new_product_list_img{
+  width: 302rpx;
+  height: 302rpx;
+}
+.main_new_product_list_pro text{
+  font-size: 32rpx;
+}
+.main_recommend .main_recommend_title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_recommend_list{
+  display: flex;
+  flex-direction: column;
+}
+.main_recommend_list_item{
+  display: flex;
+  flex-direction: row;
+}
+
+.main_recommend_list_item_img{
+  width: 302rpx;
+  height: 302rpx;
+
+}
+.main_recommend_list_item text{
+  font-size: 32rpx;
 }

@@ -1,30 +1,118 @@
-<swiper indicator-dots = "true" indicator-color = "blue" autoplay = "true">
-  <swiper-item>
-      <image src='/static/example/image/swiper_pic1.jpg'></image>
-  </swiper-item>
-  <swiper-item>
-      <image src='/static/example/image/swiper_pic2.jpg'></image>
-  </swiper-item>
-</swiper>
-<view class='main_catalog'>
-    <view>
-      <image src='/static/example/image/jujia.png'></image>
-      <text>居家</text>
+<view class='container'>
+  <swiper class='main_swiper' indicator-dots = "true" indicator-color = "blue" autoplay = "false">
+      <swiper-item>
+          <image src='/static/example/image/swiper_pic1.jpg'></image>
+      </swiper-item>
+      <swiper-item>
+          <image src='/static/example/image/swiper_pic2.jpg'></image>
+      </swiper-item>
+  </swiper>
+  <view class='main_catalog'>
+      <view class="main_catalog_item">
+        <image src='/static/example/image/jujia.png'></image>
+        <text>居家</text>
+      </view>
+      <view class="main_catalog_item">
+        <image src='/static/example/image/camchu.png'></image>
+        <text>餐厨</text>
+      </view>
+      <view class="main_catalog_item">
+        <image src='/static/example/image/peijian.png'></image>
+        <text>配件</text>
+      </view>
+      <view class="main_catalog_item">
+        <image src='/static/example/image/fuzhuang.png'></image>
+        <text>服装</text>
+      </view>
+      <view class="main_catalog_item">
+        <image src='/static/example/image/zhiqu.png'></image>
+        <text>志趣</text>
+      </view>
+  </view>
+  <view class='main_product'>
+    <view class='main_product_title'>
+      <text>品牌直销</text>
     </view>
-    <view>
-      <image src='/static/example/image/camchu.png'></image>
-      <text>餐厨</text>
+    <view class='main_product_content'>
+      <image src="/static/example/image/chanjiazhixiao.jpg"></image>
+      <view class='main_product_tip'>
+        <text class='brand'>A制造商</text>
+        <text class='price'>100元</text>
+      </view>
     </view>
-    <view>
-      <image src='/static/example/image/peijian.png'></image>
-      <text>配件</text>
+    
+  </view>
+  
+  <view  class='main_scroll_title'>
+    <text>专题精选</text>
+  </view>
+   
+    <scroll-view scroll-x = "true" class='main_scroll'>
+    <view class='main_scroll_item'>
+      <image src='/static/example/image/scroll_pic1.jpg'></image>
+      <view>
+        <text class='brand'>关爱他成长的每一个足迹</text>
+        <text class='price'>￥0元起</text>
+      </view>
+      <text class='desc'>专业运动品牌同厂，毛毛虫鞋买二送一</text>
     </view>
-    <view>
-      <image src='/static/example/image/fuzhuang.png'></image>
-      <text>服装</text>
+    <view class='main_scroll_item'>
+      <image src='/static/example/image/scroll_pic2.jpg'></image>
+      <view>
+        <text class='brand'>一次解决5个节日送礼难题</text>
+        <text class='price'>￥59.9元起</text>
+      </view>
+      <text class='desc'>这些就是他们想要的礼物清单</text>
     </view>
-    <view>
-      <image src='/static/example/image/zhiqu.png'></image>
-      <text>志趣</text>
+    <view class='main_scroll_item'>
+      <image src='/static/example/image/scroll_pic3.jpg'></image>
+      <view>
+        <text class='brand'>秒杀化学洗涤剂的纯天然皂</text>
+        <text class='price'>￥0元起</text>
+      </view>
+      <text class='desc'>前段时间有朋友跟我抱怨前段时间有朋友跟我抱怨，和婆婆住到一起才发现生活理念有太多不和。别的不提，光是洗...</text>
     </view>
+  </scroll-view>
+  
+   <view class='main_new_product'>
+    <view class='main_new_product_title'>
+      <text>周一周四 · 新品首发</text>
+    </view>
+    <view class='main_new_product_list'>
+      <view class='main_new_product_list_pro'>
+        <image src='/static/example/image/main_new_product1.png' class='main_new_product_list_img'></image>
+        <text class='brand'>母亲节礼物-舒适安睡组合</text>
+        <text class='price'>￥2598</text>
+      </view>
+      <view class='main_new_product_list_pro'>
+        <image src='/static/example/image/main_new_product2.png' class='main_new_product_list_img'></image>
+        <text class='brand'>Carat钻石 不粘厨具组合</text>
+        <text class='price'>￥2598</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='main_recommend'>
+    <view class='main_recommend_title'>
+      <text>人气推荐</text>
+    </view>
+    <view class='main_recommend_list'>
+      <view class='main_recommend_list_item'>
+        <image src="/static/example/image/mian_recommend1.png" class='main_recommend_list_item_img'></image>
+        <view>
+          <text>魔兽世界 部落 奥格瑞玛 拉杆箱 可登机</text>
+          <text>18寸，可携带登机</text>
+          <text>￥888</text>
+        </view>
+      </view>
+      <view class='main_recommend_list_item'>
+        <image src="/static/example/image/mian_recommend2.png" class='main_recommend_list_item_img'></image>
+        <view>
+          <text>魔兽世界 纪念版 麻将套装</text>
+          <text>十年经典，纪念麻将套装</text>
+          <text>￥1288</text>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
